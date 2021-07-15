@@ -68,7 +68,6 @@ namespace GorselProgramlamaFinal3
                 output += $"{elem} ";
             //Satırın sonundaki boşluklar kesilir
             output = output.Trim();
-            //Sıkıştırma öncesi ve sonrası boyutlandırma
             string res = output;
             return res;
         }
